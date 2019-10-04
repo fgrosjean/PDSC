@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>heroImagen</key>
+		<string>cotizador_florencia</string>
+		<key>descripcion</key>
+		<string>Construcción en un terreno de 8.30m de frente por 18m de fondo, 150m cuadrados con succión, carport techado para 1 vehículo, parque de vehículos en tándem.</string>
+		<key>niveles</key>
+		<array>
+			<dict>
+				<key>titulo</key>
+				<string>Primer Nivel</string>
+				<key>imagen</key>
+				<string>planta_florencia1</string>
+				<key>numero</key>
+				<integer>1</integer>
+				<key>descripcion</key>
+				<array>
+					<string>Vestíbulo</string>
+					<string>Sala</string>
+					<string>Comedor</string>
+					<string>Amplia Cocina estilo Americana</string>
+					<string>Baño de visitas</string>
+					<string>Dormitorio de servicio con baño</string>
+					<string>Área de lavandería</string>
+					<string>Salida independiente del área de servicio</string>
+					<string>Parqueo para 2 vehículos bajo techo</string>
+					<string>Jardín posterior</string>
+				</array>
+			</dict>
+			<dict>
+				<key>titulo</key>
+				<string>Segundo Nivel</string>
+				<key>imagen</key>
+				<string>planta_florencia2</string>
+				<key>numero</key>
+				<integer>2</integer>
+				<key>descripcion</key>
+				<array>
+					<string>Dormitorio principal con baño completo y walking closet</string>
+					<string>Dos dormitorios con área para closet</string>
+					<string>Baño completo</string>
+					<string>Sala familiar</string>
+				</array>
+			</dict>
+		</array>
+		<key>imagenes</key>
+		<array>
+			<string>florencia1b</string>
+			<string>florencia2b</string>
+			<string>florencia3b</string>
+			<string>florencia4b</string>
+			<string>florencia5b</string>
+		</array>
+	</dict>
+	<dict>
+		<key>heroImagen</key>
+		<string>cotizador_milan</string>
+		<key>descripcion</key>
+		<string>175 metros cuadrados. Construcción en un terreno de 8.30m de frente por 18m de fondo, carport techado para 2 vehículos, carrileras para un 3er. vehículo, casa totalmente independientes por un corredor de 90cm.</string>
+		<key>niveles</key>
+		<array>
+			<dict>
+				<key>titulo</key>
+				<string>Primer Nivel</string>
+				<key>imagen</key>
+				<string>planta_roma1</string>
+				<key>numero</key>
+				<integer>1</integer>
+				<key>descripcion</key>
+				<array>
+					<string>Sala Comedor</string>
+					<string>Amplia Cocina estilo Americana</string>
+					<string>Baño de visitas</string>
+					<string>Dormitorio de servicio con baño</string>
+					<string>Área de lavandería</string>
+					<string>Salida independiente del área de servicio</string>
+					<string>Parqueo para 2 vehículos bajo techo</string>
+					<string>Carrileras para un 3er. vehículo</string>
+					<string>Jardín posterior</string>
+				</array>
+			</dict>
+			<dict>
+				<key>titulo</key>
+				<string>Segundo Nivel</string>
+				<key>imagen</key>
+				<string>planta_roma2</string>
+				<key>numero</key>
+				<integer>2</integer>
+				<key>descripcion</key>
+				<array>
+					<string>Dormitorio principal con baño completo y walking closet</string>
+					<string>Dos dormitorios con área para closet</string>
+					<string>Baño completo</string>
+					<string>Sala familiar</string>
+				</array>
+			</dict>
+		</array>
+		<key>imagenes</key>
+		<array>
+			<string>milan1b</string>
+			<string>milan2b</string>
+			<string>milan3b</string>
+			<string>milan4b</string>
+		</array>
+	</dict>
+	<dict>
+		<key>heroImagen</key>
+		<string>cotizador_roma</string>
+		<key>descripcion</key>
+		<string>185 metros cuadrados. Construcción en un terreno de 8.30m de frente por 18m de fondo, carport techado para 2 vehículos, casa con muros independientes.</string>
+		<key>niveles</key>
+		<array>
+			<dict>
+				<key>titulo</key>
+				<string>Primer Nivel</string>
+				<key>imagen</key>
+				<string>planta_roma1</string>
+				<key>numero</key>
+				<integer>1</integer>
+				<key>descripcion</key>
+				<array>
+					<string>Sala Comedor</string>
+					<string>Amplia Cocina estilo Americana</string>
+					<string>Baño de visitas</string>
+					<string>Dormitorio de servicio con baño</string>
+					<string>Área de lavandería</string>
+					<string>Salida independiente del área de servicio</string>
+					<string>Parqueo para 2 vehículos bajo techo</string>
+					<string>Carrileras para un 3er vehículo</string>
+					<string>Jardín posterior</string>
+				</array>
+			</dict>
+			<dict>
+				<key>titulo</key>
+				<string>Segundo Nivel</string>
+				<key>imagen</key>
+				<string>planta_florencia2</string>
+				<key>numero</key>
+				<integer>2</integer>
+				<key>descripcion</key>
+				<array>
+					<string>Dormitorio principal con baño completo y walking closet</string>
+					<string>Dos dormitorios con área para closet</string>
+					<string>Baño completo</string>
+					<string>Sala familiar</string>
+				</array>
+			</dict>
+		</array>
+		<key>imagenes</key>
+		<array>
+			<string>roma1b</string>
+			<string>roma2b</string>
+			<string>roma3b</string>
+			<string>roma4b</string>
+			<string>roma5b</string>
+			<string>roma6b</string>
+		</array>
+	</dict>
+	<dict>
+		<key>heroImagen</key>
+		<string>cotizador_siena</string>
+		<key>descripcion</key>
+		<string>225 metros cuadrados. Construcción en un terreno de 8.30m de frente por 18m de fondo, ubicación premium, carport techado para 2 vehículo, casa con muros independientes.</string>
+		<key>niveles</key>
+		<array>
+			<dict>
+				<key>titulo</key>
+				<string>Primer Nivel</string>
+				<key>imagen</key>
+				<string>planta_siena1</string>
+				<key>numero</key>
+				<integer>1</integer>
+				<key>descripcion</key>
+				<array>
+					<string>Vestíbulo</string>
+					<string>Estudio</string>
+					<string>Sala</string>
+					<string>Comedor</string>
+					<string>Área para bar</string>
+					<string>Amplia Cocina estilo Americana</string>
+					<string>Baño de visitas</string>
+					<string>Dormitorio de servicio con baño</string>
+					<string>Área de lavandería</string>
+					<string>Salida independiente del área de servicio</string>
+					<string>Parqueo para 2 vehículos bajo techo</string>
+					<string>Carrileras para un 3er. vehículo</string>
+					<string>Jardín posterior</string>
+				</array>
+			</dict>
+			<dict>
+				<key>titulo</key>
+				<string>Segundo Nivel</string>
+				<key>imagen</key>
+				<string>planta_siena2</string>
+				<key>numero</key>
+				<integer>2</integer>
+				<key>descripcion</key>
+				<array>
+					<string>Dormitorio principal con baño completo y walking closet</string>
+					<string>Dos dormitorios con área para closet</string>
+					<string>Baño completo</string>
+					<string>Sala familiar</string>
+				</array>
+			</dict>
+		</array>
+		<key>imagenes</key>
+		<array>
+			<string>siena1b</string>
+			<string>siena2b</string>
+			<string>siena3b</string>
+			<string>siena4b</string>
+		</array>
+	</dict>
+</array>
+</plist>

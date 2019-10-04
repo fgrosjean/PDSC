@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Registro View Controller-->
+        <scene sceneID="BGs-DR-w8f">
+            <objects>
+                <viewController storyboardIdentifier="Registro" id="hEr-gg-iz2" customClass="RegistroViewController" customModule="PDSC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OLz-oh-lj6">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Registro de Usuarios" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cKF-cZ-HPJ">
+                                <rect key="frame" x="30" y="55" width="204.5" height="25.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <color key="textColor" name="sectionColor_registro"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="7kD-p4-jaI">
+                                <rect key="frame" x="30" y="87.5" width="708" height="413"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FrE-FC-8XM">
+                                        <rect key="frame" x="0.0" y="0.0" width="708" height="248"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="nye-bl-f32">
+                                                <rect key="frame" x="0.0" y="0.0" width="708" height="248"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="0eL-iJ-5DZ">
+                                                        <rect key="frame" x="0.0" y="0.0" width="708" height="44"/>
+                                                        <subviews>
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nombres" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5wj-Ys-bti" customClass="FormTextField" customModule="PDSC" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="0.0" width="350.5" height="44"/>
+                                                                <nil key="textColor"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" returnKeyType="send"/>
+                                                            </textField>
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Apellidos" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NK4-8s-d8F" customClass="FormTextField" customModule="PDSC" customModuleProvider="target">
+                                                                <rect key="frame" x="357.5" y="0.0" width="350.5" height="44"/>
+                                                                <nil key="textColor"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" returnKeyType="send"/>
+                                                            </textField>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="44" id="TbS-Fy-hTy"/>
+                                                        </constraints>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="Swm-7E-58E">
+                                                        <rect key="frame" x="0.0" y="51" width="708" height="44"/>
+                                                        <subviews>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mav-rX-lHW" customClass="PDSCDropdown" customModule="PDSC" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="0.0" width="350.5" height="44"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                                                        <color key="value" name="sectionColor_registro"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="Tiene Hijos"/>
+                                                                </userDefinedRuntimeAttributes>
+                                                                <connections>
+                                                                    <action selector="hijosDropdownTapped:" destination="hEr-gg-iz2" eventType="touchUpInside" id="8PB-Y1-VCb"/>
+                                                                </connections>
+                                                            </view>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="obl-7p-XKz" customClass="PDSCDropdown" customModule="PDSC" customModuleProvider="target">
+                                                                <rect key="frame" x="357.5" y="0.0" width="350.5" height="44"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                                                        <color key="value" name="sectionColor_registro"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="Fuente de Ingresos"/>
+                                                                </userDefinedRuntimeAttributes>
+                                                                <connections>
+                                                                    <action selector="ingresosDropdownTapped:" destination="hEr-gg-iz2" eventType="touchUpInside" id="it5-v9-efU"/>
+                                                                </connections>
+                                                            </view>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="Pu9-5G-CA0">
+                                                        <rect key="frame" x="0.0" y="102" width="708" height="44"/>
+                                                        <subviews>
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Teléfono" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZdQ-Ko-wZI" customClass="FormTextField" customModule="PDSC" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="0.0" width="350.5" height="44"/>
+                                                                <nil key="textColor"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="phonePad" returnKeyType="send" textContentType="tel"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="maxNumberOfCharacters">
+                                                                        <integer key="value" value="8"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </textField>
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Celular" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9Hv-aw-KLy" customClass="FormTextField" customModule="PDSC" customModuleProvider="target">
+                                                                <rect key="frame" x="357.5" y="0.0" width="350.5" height="44"/>
+                                                                <nil key="textColor"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="phonePad" returnKeyType="send" textContentType="tel"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="maxNumberOfCharacters">
+                                                                        <integer key="value" value="8"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </textField>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="xUa-Rd-NVS">
+                                                        <rect key="frame" x="0.0" y="153" width="708" height="44"/>
+                                                        <subviews>
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Correo Electrónico" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lma-JT-6KB" customClass="FormTextField" customModule="PDSC" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="0.0" width="708" height="44"/>
+                                                                <nil key="textColor"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress" returnKeyType="send" textContentType="email"/>
+                                                            </textField>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="RLI-Du-6SQ">
+                                                        <rect key="frame" x="0.0" y="204" width="708" height="44"/>
+                                                        <subviews>
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Zona de Residencia" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="arA-I1-rp8" customClass="FormTextField" customModule="PDSC" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="0.0" width="350.5" height="44"/>
+                                                                <nil key="textColor"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numberPad" returnKeyType="send"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="maxNumberOfCharacters">
+                                                                        <integer key="value" value="2"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </textField>
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Zona de Trabajo" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5fb-fY-Z50" customClass="FormTextField" customModule="PDSC" customModuleProvider="target">
+                                                                <rect key="frame" x="357.5" y="0.0" width="350.5" height="44"/>
+                                                                <nil key="textColor"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numberPad" returnKeyType="send"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="maxNumberOfCharacters">
+                                                                        <integer key="value" value="2"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </textField>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="nye-bl-f32" secondAttribute="bottom" id="5UC-xm-eaJ"/>
+                                            <constraint firstItem="nye-bl-f32" firstAttribute="leading" secondItem="FrE-FC-8XM" secondAttribute="leading" id="M0h-kB-HOr"/>
+                                            <constraint firstAttribute="trailing" secondItem="nye-bl-f32" secondAttribute="trailing" id="Tjr-iH-hIE"/>
+                                            <constraint firstItem="nye-bl-f32" firstAttribute="top" secondItem="FrE-FC-8XM" secondAttribute="top" id="sv1-Aq-ATZ"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r1y-do-Zt4">
+                                        <rect key="frame" x="0.0" y="255" width="708" height="42"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="En Función de sus Ingresos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jLH-T7-g0S">
+                                                <rect key="frame" x="0.0" y="16.5" width="267" height="25.5"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                                <color key="textColor" name="sectionColor_registro"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="jLH-T7-g0S" secondAttribute="bottom" id="AJd-IP-Gmq"/>
+                                            <constraint firstItem="jLH-T7-g0S" firstAttribute="leading" secondItem="r1y-do-Zt4" secondAttribute="leading" id="Eys-jq-g0l"/>
+                                            <constraint firstAttribute="height" constant="42" id="dyJ-Ct-BAr"/>
+                                        </constraints>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="l0O-zU-HF7">
+                                        <rect key="frame" x="0.0" y="304" width="708" height="109"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="ICm-7q-3nx">
+                                                <rect key="frame" x="0.0" y="0.0" width="708" height="44"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="kMv-dq-zr5">
+                                                        <rect key="frame" x="0.0" y="0.0" width="708" height="44"/>
+                                                        <subviews>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NA3-Ce-4md" customClass="PDSCDropdown" customModule="PDSC" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="0.0" width="350.5" height="44"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                                                        <color key="value" name="sectionColor_registro"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="Casa de Interes"/>
+                                                                </userDefinedRuntimeAttributes>
+                                                                <connections>
+                                                                    <action selector="interesTapped:" destination="hEr-gg-iz2" eventType="touchUpInside" id="7Zf-D3-iNX"/>
+                                                                </connections>
+                                                            </view>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A2Y-NE-XCJ" customClass="PDSCDropdown" customModule="PDSC" customModuleProvider="target">
+                                                                <rect key="frame" x="357.5" y="0.0" width="350.5" height="44"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                                                        <color key="value" name="sectionColor_registro"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="Cómo se enteró del proyecto"/>
+                                                                </userDefinedRuntimeAttributes>
+                                                                <connections>
+                                                                    <action selector="enteroProyectoTapped:" destination="hEr-gg-iz2" eventType="touchUpInside" id="dn5-re-ilN"/>
+                                                                </connections>
+                                                            </view>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="44" id="GLp-XY-eHn"/>
+                                                        </constraints>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JuN-Yq-wmJ" customClass="PDSCButton" customModule="PDSC" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="65" width="708" height="44"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="44" id="QJi-uU-gF7"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <state key="normal" title="Guardar">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                                                        <color key="value" name="sectionColor_registro"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="guardarTapped:" destination="hEr-gg-iz2" eventType="touchUpInside" id="2Qm-oL-85Y"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="r1y-do-Zt4" secondAttribute="trailing" id="IFn-o7-tau"/>
+                                    <constraint firstItem="r1y-do-Zt4" firstAttribute="leading" secondItem="7kD-p4-jaI" secondAttribute="leading" id="T8a-mI-i7v"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YHA-M0-3Iq">
+                                <rect key="frame" x="610" y="54.5" width="128" height="30"/>
+                                <state key="normal" title="Limpiar Formulario">
+                                    <color key="titleColor" name="sectionColor_registro"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetFormTapped:" destination="hEr-gg-iz2" eventType="touchUpInside" id="KI2-us-FEJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="7kD-p4-jaI" firstAttribute="trailing" secondItem="ODd-za-NU9" secondAttribute="trailing" constant="-30" id="5to-Xs-PSl"/>
+                            <constraint firstItem="ODd-za-NU9" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="cKF-cZ-HPJ" secondAttribute="trailing" constant="30" id="8lg-GM-jPv"/>
+                            <constraint firstItem="YHA-M0-3Iq" firstAttribute="firstBaseline" secondItem="cKF-cZ-HPJ" secondAttribute="firstBaseline" id="CcL-70-IUD"/>
+                            <constraint firstItem="ODd-za-NU9" firstAttribute="trailing" secondItem="YHA-M0-3Iq" secondAttribute="trailing" constant="30" id="EDU-vl-RR4"/>
+                            <constraint firstItem="cKF-cZ-HPJ" firstAttribute="leading" secondItem="ODd-za-NU9" secondAttribute="leading" constant="30" id="Gu2-KO-IQu"/>
+                            <constraint firstItem="ODd-za-NU9" firstAttribute="bottom" secondItem="7kD-p4-jaI" secondAttribute="bottom" priority="250" id="Rf1-dp-m6n"/>
+                            <constraint firstItem="cKF-cZ-HPJ" firstAttribute="top" secondItem="OLz-oh-lj6" secondAttribute="top" constant="55" id="RjK-EF-nuJ"/>
+                            <constraint firstItem="7kD-p4-jaI" firstAttribute="leading" secondItem="ODd-za-NU9" secondAttribute="leading" constant="30" id="ewS-aL-kdM"/>
+                            <constraint firstItem="7kD-p4-jaI" firstAttribute="top" secondItem="cKF-cZ-HPJ" secondAttribute="bottom" constant="7" id="qk3-n0-MbM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ODd-za-NU9"/>
+                    </view>
+                    <connections>
+                        <outlet property="apellidosTextField" destination="NK4-8s-d8F" id="xgd-tq-Ijy"/>
+                        <outlet property="casaDropdown" destination="NA3-Ce-4md" id="NRH-PI-VsZ"/>
+                        <outlet property="celularTextField" destination="9Hv-aw-KLy" id="JT1-3M-VCt"/>
+                        <outlet property="emailTextField" destination="Lma-JT-6KB" id="hYR-U3-iu5"/>
+                        <outlet property="enteroDropdown" destination="A2Y-NE-XCJ" id="rHk-tI-lby"/>
+                        <outlet property="hijosDropdown" destination="Mav-rX-lHW" id="3pc-G3-RPf"/>
+                        <outlet property="ingresosDropdown" destination="obl-7p-XKz" id="eqv-5e-1hz"/>
+                        <outlet property="nombreTextField" destination="5wj-Ys-bti" id="KGw-7r-wRo"/>
+                        <outlet property="telefonoTextField" destination="ZdQ-Ko-wZI" id="eHU-jQ-gxR"/>
+                        <outlet property="zonaResidenciaTextField" destination="arA-I1-rp8" id="a3L-Ua-rrg"/>
+                        <outlet property="zonaTrabajoTextField" destination="5fb-fY-Z50" id="1mk-ve-hSg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tc2-Vd-kwF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-87" y="122"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="sectionColor_registro">
+            <color red="0.34509803921568627" green="0.62352941176470589" blue="0.22352941176470589" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

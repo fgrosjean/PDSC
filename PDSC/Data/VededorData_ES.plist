@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>checklist</key>
+	<array>
+		<string>Preparar sala de ventas</string>
+		<string>Preparar papelería de ventas</string>
+		<string>Chequear casas modelo</string>
+		<string>Chequear área de parqueo</string>
+		<string>Chequear ruta de amenidades</string>
+		<string>Chequear amenidades</string>
+		<string>Presentación impecable</string>
+		<string>Bienvenida</string>
+		<string>Evaluación</string>
+		<string>Demostración</string>
+		<string>Resolución</string>
+		<string>Elección</string>
+		<string>Cierre</string>
+		<string>Seguimiento</string>
+	</array>
+	<key>presentacion</key>
+	<array>
+		<string>Camisa de Prados de San Cristóbal</string>
+		<string>Pantalón estilo dockers color oscuro</string>
+		<string>Zapatos de vestir</string>
+	</array>
+	<key>vendedores</key>
+	<array>
+		<string>Camisa del uniforme limpia</string>
+		<string>Rasurado</string>
+		<string>Bien peinado</string>
+		<string>Zapatos lustrados</string>
+		<string>Loción</string>
+	</array>
+	<key>vendedoras</key>
+	<array>
+		<string>Blusa del uniforme limpia</string>
+		<string>Maquillaje discreto</string>
+		<string>Bien peinada</string>
+		<string>Zapatos de vestir que cubran el pie</string>
+		<string>Perfume</string>
+	</array>
+	<key>pasosRecorrido</key>
+	<array>
+		<dict>
+			<key>image</key>
+			<string>mano</string>
+			<key>title</key>
+			<string>1. Salude y de la bienvenida al cliente</string>
+		</dict>
+		<dict>
+			<key>image</key>
+			<string>2</string>
+			<key>title</key>
+			<string>2. Platica preliminar y conversación</string>
+		</dict>
+		<dict>
+			<key>image</key>
+			<string>3</string>
+			<key>title</key>
+			<string>3. Mostrar áreas comunes</string>
+		</dict>
+		<dict>
+			<key>image</key>
+			<string>4</string>
+			<key>title</key>
+			<string>4. Mostrar casa modelo</string>
+		</dict>
+		<dict>
+			<key>image</key>
+			<string>5</string>
+			<key>title</key>
+			<string>5. Hablar sobre el proyecto</string>
+		</dict>
+		<dict>
+			<key>image</key>
+			<string>2</string>
+			<key>title</key>
+			<string>6. Conversación e impresiones sobre el proyecto</string>
+		</dict>
+		<dict>
+			<key>image</key>
+			<string>mano</string>
+			<key>title</key>
+			<string>7. Despedida</string>
+		</dict>
+	</array>
+	<key>pinData</key>
+	<array>
+		<string>Terreno de 149 mts. cuadrados (8.30m  x 18m), Carport techado para 2 vehículos, carrileras para un 3er. vehículo, Instalaciones especiales para calentador y estufa. Puerta de ingreso de madera enchapada tipo Pormade.</string>
+		<string>Baño de visitas (Lavamanos marca Sorrento de pedestal, Inodoro American Estándar Olympus, Grifería Price fister Mono Comando, Acabados en paredes de Azulejo Barcelona Beige 20x30) Bodega con puertas de madera, cubo de gradas iluminado.</string>
+		<string>Sala, comedor, ventanearía de PVC, piso cerámico Barcelona beige 40x40, Moldura en los techos, zócalo de piso ceramico.</string>
+		<string>Instalaciones eléctricas/gas, ice maker y dish washer. Puerta metálica con vidrio, salida a área de servicio.</string>
+		<string>Área de servició y lavandería, pila azulejada, corredor de servicio de 90cm. Ingreso de servicio.</string>
+		<string>Jardín posterior de 25m cuadrados.</string>
+		<string>Sala familiar, puertas enchapadas de madera tipo Brasilia, conexión para internet (estudio), Baño secundario para recamaras secundarias . Lavamanos Sorrento de pedestal, inodoro American Estándar Olympus, grifería Price Pfister mono comando, ducha con piso antideslizante mosaico, acabados en las paredes de baño azulejo Barcelona formato 20x30.</string>
+		<string>Habitación Master, área de closet, walking closet, baño privado con lavamanos tipo bowl con top de azulejo, inodoro American Standar Olympus, artesa de fibra de vidrio tipo Splash, grifería Price Pfister mono comando, acabados en las paredes de baño azulejo Barcelona beige formato 20x30.</string>
+		<string>Habitación secundaria, área de closet y conexion de cable.</string>
+		<string>Habitación secundaria, área de closet y conexion de cable.</string>
+	</array>
+</dict>
+</plist>
