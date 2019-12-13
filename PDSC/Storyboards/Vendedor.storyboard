@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
-    <device id="ipad9_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -186,7 +184,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Perfil Cliente C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VmT-s7-q0H">
-                                <rect key="frame" x="30" y="30" width="146.5" height="25.5"/>
+                                <rect key="frame" x="30" y="30" width="147" height="25.5"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
                                 <color key="textColor" name="sectionColor_vendedor"/>
                                 <nil key="highlightedColor"/>
@@ -1808,82 +1806,22 @@
                                 <rect key="frame" x="30" y="63" width="708" height="384"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="☠️">
-                                        <attributes>
-                                            <font key="NSFont" size="14" name=".AppleColorEmojiUI"/>
-                                        </attributes>
-                                    </fragment>
                                     <fragment>
-                                        <string key="content"> Una casa nueva no tiene riesgo de la procedencia del bien, no hay riesgo a una estafa.
+                                        <string key="content">☠️ Una casa nueva no tiene riesgo de la procedencia del bien, no hay riesgo a una estafa.
 
-</string>
-                                        <attributes>
-                                            <font key="NSFont" metaFont="system" size="14"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="🏡">
-                                        <attributes>
-                                            <font key="NSFont" size="14" name=".AppleColorEmojiUI"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content"> Una casa nueva no tiene desgaste, el cliente es el primer usuario y tiene la satisfacción de serlo, de estrenar la casa.
+🏡 Una casa nueva no tiene desgaste, el cliente es el primer usuario y tiene la satisfacción de serlo, de estrenar la casa.
 
-</string>
-                                        <attributes>
-                                            <font key="NSFont" metaFont="system" size="14"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="✏️">
-                                        <attributes>
-                                            <font key="NSFont" size="14" name=".AppleColorEmojiUI"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content"> Una casa nueva ofrece diseños actualizados, en la urbanización como en la casa misma.
+✏️ Una casa nueva ofrece diseños actualizados, en la urbanización como en la casa misma.
 
-</string>
-                                        <attributes>
-                                            <font key="NSFont" metaFont="system" size="14"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="🔍">
-                                        <attributes>
-                                            <font key="NSFont" size="14" name=".AppleColorEmojiUI"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content"> Todos los residentes pasan por un proceso de análisis y precalificación:
+🔍 Todos los residentes pasan por un proceso de análisis y precalificación:
 → Capacidad de pago
 → Referencias personales y comerciales
 → Estabilidad labora
 → Procedencia de sus ingresos
 
-</string>
-                                        <attributes>
-                                            <font key="NSFont" metaFont="system" size="14"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="💪🏻">
-                                        <attributes>
-                                            <font key="NSFont" size="14" name=".AppleColorEmojiUI"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content"> Una casa nueva ofrece garantía en la construcción, accesorios y acabados.
+💪🏻 Una casa nueva ofrece garantía en la construcción, accesorios y acabados.
 
-</string>
-                                        <attributes>
-                                            <font key="NSFont" metaFont="system" size="14"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="✅">
-                                        <attributes>
-                                            <font key="NSFont" size="14" name=".AppleColorEmojiUI"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content"> Una casa nueva ofrece al cliente:
+✅ Una casa nueva ofrece al cliente:
 → Construcción moderna
 → Acabados acorde al tipo de casa
 → Urbanización de primera
@@ -1891,18 +1829,12 @@
 
 </string>
                                         <attributes>
-                                            <font key="NSFont" metaFont="system" size="14"/>
+                                            <font key="NSFont" metaFont="menu" size="14"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment content="📐">
+                                    <fragment content="📐 Una casa nueva esta diseñada por un profesional.">
                                         <attributes>
-                                            <font key="NSFont" size="14" name=".AppleColorEmojiUI"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content=" Una casa nueva esta diseñada por un profesional.">
-                                        <attributes>
-                                            <font key="NSFont" metaFont="system" size="14"/>
+                                            <font key="NSFont" metaFont="menu" size="14"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
