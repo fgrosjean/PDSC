@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="ipad9_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -20,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cálculo de Cuota y Calificación de Ingresos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OSp-CK-lCY">
-                                <rect key="frame" x="30" y="55" width="425.5" height="25.5"/>
+                                <rect key="frame" x="30" y="55" width="422.5" height="25.5"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
                                 <color key="textColor" name="sectionColor_cotizador"/>
                                 <nil key="highlightedColor"/>
@@ -63,7 +61,6 @@
                                                             </view>
                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Cantidad de Enganche" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="S8J-xj-fmx" customClass="FormTextField" customModule="PDSC" customModuleProvider="target">
                                                                 <rect key="frame" x="357.5" y="0.0" width="350.5" height="44"/>
-                                                                <nil key="textColor"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits" autocorrectionType="no" returnKeyType="send"/>
                                                             </textField>
@@ -90,7 +87,6 @@
                                                             </view>
                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Tasa de Interés" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BTq-ar-7Ee" customClass="FormTextField" customModule="PDSC" customModuleProvider="target">
                                                                 <rect key="frame" x="357.5" y="0.0" width="350.5" height="44"/>
-                                                                <nil key="textColor"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits" autocorrectionType="no" returnKeyType="send"/>
                                                             </textField>
@@ -124,7 +120,7 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="–" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7zG-3A-WSn">
-                                                                <rect key="frame" x="701" y="8.5" width="7" height="17"/>
+                                                                <rect key="frame" x="699" y="8.5" width="9" height="17"/>
                                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -167,7 +163,7 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="–" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0oT-m5-7Oj">
-                                                                <rect key="frame" x="701" y="9.5" width="7" height="17"/>
+                                                                <rect key="frame" x="699" y="9.5" width="9" height="17"/>
                                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -210,7 +206,7 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="–" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GQO-0L-DR0">
-                                                                <rect key="frame" x="701" y="9.5" width="7" height="17"/>
+                                                                <rect key="frame" x="699" y="9.5" width="9" height="17"/>
                                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -253,7 +249,7 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="–" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EVh-De-CnM">
-                                                                <rect key="frame" x="701" y="9.5" width="7" height="17"/>
+                                                                <rect key="frame" x="699" y="9.5" width="9" height="17"/>
                                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -296,7 +292,7 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="–" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mPU-sU-Ssi">
-                                                                <rect key="frame" x="701" y="9.5" width="7" height="17"/>
+                                                                <rect key="frame" x="699" y="9.5" width="9" height="17"/>
                                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -339,7 +335,7 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="–" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eNh-31-Lvg">
-                                                                <rect key="frame" x="701" y="9.5" width="7" height="17"/>
+                                                                <rect key="frame" x="699" y="9.5" width="9" height="17"/>
                                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -382,7 +378,7 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="–" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3do-bu-p0p">
-                                                                <rect key="frame" x="699" y="7.5" width="9" height="21.5"/>
+                                                                <rect key="frame" x="697" y="7.5" width="11" height="21.5"/>
                                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                                                 <color key="textColor" name="sectionColor_cotizador"/>
                                                                 <nil key="highlightedColor"/>
@@ -415,7 +411,7 @@
                                         <rect key="frame" x="0.0" y="646" width="708" height="42"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enviar Cotización" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JAP-af-AmP">
-                                                <rect key="frame" x="0.0" y="16.5" width="172" height="25.5"/>
+                                                <rect key="frame" x="0.0" y="16.5" width="170.5" height="25.5"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
                                                 <color key="textColor" name="sectionColor_cotizador"/>
                                                 <nil key="highlightedColor"/>
@@ -438,7 +434,6 @@
                                                         <subviews>
                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Correo Electrónico" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VCV-MQ-9Xn" customClass="FormTextField" customModule="PDSC" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="0.0" width="708" height="44"/>
-                                                                <nil key="textColor"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress" returnKeyType="send" textContentType="email"/>
                                                             </textField>
@@ -449,7 +444,7 @@
                                                     </stackView>
                                                 </subviews>
                                             </stackView>
-                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PeQ-rb-6KU" customClass="PDSCButton" customModule="PDSC" customModuleProvider="target">
+                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PeQ-rb-6KU" customClass="PDSCButton" customModule="PDSC" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="65" width="708" height="44"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="44" id="wTH-Rx-TjP"/>
@@ -476,6 +471,7 @@
                                 </constraints>
                             </stackView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="SD5-15-snI"/>
                         <constraints>
                             <constraint firstItem="AwQ-7A-pUD" firstAttribute="top" secondItem="OSp-CK-lCY" secondAttribute="bottom" constant="7" id="7wV-q1-ACd"/>
                             <constraint firstItem="AwQ-7A-pUD" firstAttribute="trailing" secondItem="SD5-15-snI" secondAttribute="trailing" constant="-30" id="JV1-Kx-EM9"/>
@@ -485,7 +481,6 @@
                             <constraint firstItem="SD5-15-snI" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="OSp-CK-lCY" secondAttribute="trailing" constant="30" id="q3i-Dh-8AZ"/>
                             <constraint firstItem="OSp-CK-lCY" firstAttribute="leading" secondItem="SD5-15-snI" secondAttribute="leading" constant="30" id="y5R-Qf-mVT"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="SD5-15-snI"/>
                     </view>
                     <connections>
                         <outlet property="cantidadEngancheTextField" destination="S8J-xj-fmx" id="5XW-n3-GgM"/>
@@ -517,6 +512,11 @@
             <point key="canvasLocation" x="148" y="-101"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="PeQ-rb-6KU">
+            <size key="intrinsicContentSize" width="46" height="30"/>
+        </designable>
+    </designables>
     <resources>
         <image name="cotizador_default" width="1468" height="556"/>
         <namedColor name="sectionColor_cotizador">
