@@ -17,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         setupIQKeyboardManager()
         window?.rootViewController?.view.tintAdjustmentMode = .normal
+        print("hello world Fernando Grosjean")
         
         return true
     }
