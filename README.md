@@ -7,3 +7,5 @@ Prados de San Cristobal needed an app that could make the life of their real es
 
 These tools are also useful for brokers, buyers, sellers, even investors —anyone involved in real estate.
 
+I am editing the README file. Adding some more details about the project description.
+
